@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		955D5FEB68A39410B83BEE80 /* Pods_HomeChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */; };
+		A93A4F281C55134F002A1155 /* chicken1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F261C55134F002A1155 /* chicken1.jpg */; };
+		A93A4F291C55134F002A1155 /* chicken2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F271C55134F002A1155 /* chicken2.jpg */; };
+		A93A4F2B1C5513D3002A1155 /* chicken3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F2A1C5513D3002A1155 /* chicken3.jpg */; };
+		A93A4F2D1C5514BC002A1155 /* recipe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F2C1C5514BC002A1155 /* recipe.jpg */; };
+		A93A4F311C55152A002A1155 /* asuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93A4F301C55152A002A1155 /* asuViewController.swift */; };
+		A93A4F331C551821002A1155 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F321C551821002A1155 /* screenshot.png */; };
+		A93A4F351C551982002A1155 /* animate.gif in Resources */ = {isa = PBXBuildFile; fileRef = A93A4F341C551982002A1155 /* animate.gif */; };
+		A9B425541C533EAC00BE55F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425531C533EAC00BE55F9 /* AppDelegate.swift */; };
+		A9B425561C533EAC00BE55F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B425551C533EAC00BE55F9 /* ViewController.swift */; };
+		A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B425571C533EAC00BE55F9 /* Main.storyboard */; };
+		A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255A1C533EAC00BE55F9 /* Images.xcassets */; };
+		A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */; };
+		A9DEDFB21C54F10B00529272 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DEDFB11C54F10B00529272 /* RecipeViewController.swift */; };
+		EC1192981C541A7B0009FB4A /* pasta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192951C541A7B0009FB4A /* pasta.jpg */; };
+		EC1192991C541A7B0009FB4A /* meats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192961C541A7B0009FB4A /* meats.jpg */; };
+		EC11929A1C541A7B0009FB4A /* spices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC1192971C541A7B0009FB4A /* spices.jpg */; };
+		EC11929C1C541A830009FB4A /* vegetables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC11929B1C541A830009FB4A /* vegetables.jpg */; };
+		EC36E3D71C54C7B300EDBE82 /* F1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3D31C54C7B300EDBE82 /* F1.jpg */; };
+		EC36E3D81C54C7B300EDBE82 /* F2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3D41C54C7B300EDBE82 /* F2.jpg */; };
+		EC36E3D91C54C7B300EDBE82 /* F3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3D51C54C7B300EDBE82 /* F3.jpg */; };
+		EC36E3DA1C54C7B300EDBE82 /* F4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3D61C54C7B300EDBE82 /* F4.jpg */; };
+		EC36E3E31C54D11F00EDBE82 /* P1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3DF1C54D11F00EDBE82 /* P1.jpg */; };
+		EC36E3E41C54D11F00EDBE82 /* P2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E01C54D11F00EDBE82 /* P2.jpg */; };
+		EC36E3E51C54D11F00EDBE82 /* P3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E11C54D11F00EDBE82 /* P3.jpg */; };
+		EC36E3E61C54D11F00EDBE82 /* P4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E21C54D11F00EDBE82 /* P4.jpg */; };
+		EC36E3EB1C54D19600EDBE82 /* M1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E71C54D19600EDBE82 /* M1.jpg */; };
+		EC36E3EC1C54D19600EDBE82 /* M2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E81C54D19600EDBE82 /* M2.jpg */; };
+		EC36E3ED1C54D19600EDBE82 /* M3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3E91C54D19600EDBE82 /* M3.jpg */; };
+		EC36E3EE1C54D19600EDBE82 /* M4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3EA1C54D19600EDBE82 /* M4.jpg */; };
+		EC36E3F31C54D1E500EDBE82 /* V1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3EF1C54D1E500EDBE82 /* V1.jpg */; };
+		EC36E3F41C54D1E500EDBE82 /* V2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3F01C54D1E500EDBE82 /* V2.jpg */; };
+		EC36E3F51C54D1E500EDBE82 /* V3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3F11C54D1E500EDBE82 /* V3.jpg */; };
+		EC36E3F61C54D1E500EDBE82 /* V4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC36E3F21C54D1E500EDBE82 /* V4.jpg */; };
+		EC36E3F81C54D7A100EDBE82 /* foodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC36E3F71C54D7A100EDBE82 /* foodData.swift */; };
+		EC36E3FA1C54E28400EDBE82 /* apiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC36E3F91C54E28400EDBE82 /* apiRequest.swift */; };
+		EC3EA6FC1C54968B00A8BA87 /* categoryTypeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EA6FB1C54968B00A8BA87 /* categoryTypeTableView.swift */; };
+		EC3EA6FE1C54980500A8BA87 /* foodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EA6FD1C54980500A8BA87 /* foodCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B425641C533EAC00BE55F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B425461C533EAC00BE55F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B4254D1C533EAC00BE55F9;
+			remoteInfo = HomeChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef.debug.xcconfig"; sourceTree = "<group>"; };
+		A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HomeChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93A4F261C55134F002A1155 /* chicken1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken1.jpg; sourceTree = "<group>"; };
+		A93A4F271C55134F002A1155 /* chicken2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken2.jpg; sourceTree = "<group>"; };
+		A93A4F2A1C5513D3002A1155 /* chicken3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chicken3.jpg; sourceTree = "<group>"; };
+		A93A4F2C1C5514BC002A1155 /* recipe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recipe.jpg; sourceTree = "<group>"; };
+		A93A4F301C55152A002A1155 /* asuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = asuViewController.swift; sourceTree = "<group>"; };
+		A93A4F321C551821002A1155 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		A93A4F341C551982002A1155 /* animate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animate.gif; sourceTree = "<group>"; };
+		A9B4254E1C533EAC00BE55F9 /* HomeChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B425521C533EAC00BE55F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B425531C533EAC00BE55F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9B425551C533EAC00BE55F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A9B425581C533EAC00BE55F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B4255A1C533EAC00BE55F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9B4255D1C533EAC00BE55F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9B425631C533EAC00BE55F9 /* HomeChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DEDFB11C54F10B00529272 /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		EC1192951C541A7B0009FB4A /* pasta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pasta.jpg; sourceTree = "<group>"; };
+		EC1192961C541A7B0009FB4A /* meats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meats.jpg; sourceTree = "<group>"; };
+		EC1192971C541A7B0009FB4A /* spices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spices.jpg; sourceTree = "<group>"; };
+		EC11929B1C541A830009FB4A /* vegetables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetables.jpg; sourceTree = "<group>"; };
+		EC36E3D31C54C7B300EDBE82 /* F1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F1.jpg; sourceTree = "<group>"; };
+		EC36E3D41C54C7B300EDBE82 /* F2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F2.jpg; sourceTree = "<group>"; };
+		EC36E3D51C54C7B300EDBE82 /* F3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F3.jpg; sourceTree = "<group>"; };
+		EC36E3D61C54C7B300EDBE82 /* F4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = F4.jpg; sourceTree = "<group>"; };
+		EC36E3DF1C54D11F00EDBE82 /* P1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P1.jpg; sourceTree = "<group>"; };
+		EC36E3E01C54D11F00EDBE82 /* P2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P2.jpg; sourceTree = "<group>"; };
+		EC36E3E11C54D11F00EDBE82 /* P3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P3.jpg; sourceTree = "<group>"; };
+		EC36E3E21C54D11F00EDBE82 /* P4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = P4.jpg; sourceTree = "<group>"; };
+		EC36E3E71C54D19600EDBE82 /* M1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M1.jpg; sourceTree = "<group>"; };
+		EC36E3E81C54D19600EDBE82 /* M2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M2.jpg; sourceTree = "<group>"; };
+		EC36E3E91C54D19600EDBE82 /* M3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M3.jpg; sourceTree = "<group>"; };
+		EC36E3EA1C54D19600EDBE82 /* M4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M4.jpg; sourceTree = "<group>"; };
+		EC36E3EF1C54D1E500EDBE82 /* V1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V1.jpg; sourceTree = "<group>"; };
+		EC36E3F01C54D1E500EDBE82 /* V2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V2.jpg; sourceTree = "<group>"; };
+		EC36E3F11C54D1E500EDBE82 /* V3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V3.jpg; sourceTree = "<group>"; };
+		EC36E3F21C54D1E500EDBE82 /* V4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = V4.jpg; sourceTree = "<group>"; };
+		EC36E3F71C54D7A100EDBE82 /* foodData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodData.swift; sourceTree = "<group>"; };
+		EC36E3F91C54E28400EDBE82 /* apiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiRequest.swift; sourceTree = "<group>"; };
+		EC3EA6FB1C54968B00A8BA87 /* categoryTypeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = categoryTypeTableView.swift; sourceTree = "<group>"; };
+		EC3EA6FD1C54980500A8BA87 /* foodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodCell.swift; sourceTree = "<group>"; };
+		FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HomeChef.release.xcconfig"; path = "Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B4254B1C533EAC00BE55F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D5FEB68A39410B83BEE80 /* Pods_HomeChef.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B425601C533EAC00BE55F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42110D471D3AC8C5EB8601C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */,
+				FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9B425451C533EAC00BE55F9 = {
+			isa = PBXGroup;
+			children = (
+				A9B425501C533EAC00BE55F9 /* HomeChef */,
+				A9B4254F1C533EAC00BE55F9 /* Products */,
+				42110D471D3AC8C5EB8601C3 /* Pods */,
+				C40B51B00C9141BAB6E97294 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B4254F1C533EAC00BE55F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B4254E1C533EAC00BE55F9 /* HomeChef.app */,
+				A9B425631C533EAC00BE55F9 /* HomeChefTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B425501C533EAC00BE55F9 /* HomeChef */ = {
+			isa = PBXGroup;
+			children = (
+				EC11928A1C5413390009FB4A /* Images */,
+				EC1192A31C5452AC0009FB4A /* Views */,
+				ECFBFE171C5386FF00AB0C19 /* View Controllers */,
+				A9B425571C533EAC00BE55F9 /* Main.storyboard */,
+				EC36E3F71C54D7A100EDBE82 /* foodData.swift */,
+				A9B425531C533EAC00BE55F9 /* AppDelegate.swift */,
+				A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */,
+				A9B425511C533EAC00BE55F9 /* Supporting Files */,
+			);
+			path = HomeChef;
+			sourceTree = "<group>";
+		};
+		A9B425511C533EAC00BE55F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B425521C533EAC00BE55F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C40B51B00C9141BAB6E97294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6FB1E46E8DB2102B69B29CD /* Pods_HomeChef.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC11928A1C5413390009FB4A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A93A4F341C551982002A1155 /* animate.gif */,
+				A93A4F321C551821002A1155 /* screenshot.png */,
+				A93A4F261C55134F002A1155 /* chicken1.jpg */,
+				A93A4F271C55134F002A1155 /* chicken2.jpg */,
+				A93A4F2A1C5513D3002A1155 /* chicken3.jpg */,
+				A93A4F2C1C5514BC002A1155 /* recipe.jpg */,
+				EC36E3DB1C54C7BC00EDBE82 /* Intro */,
+				EC36E3DD1C54C7D200EDBE82 /* Meats */,
+				EC36E3DE1C54C7DD00EDBE82 /* Vegetables */,
+				EC36E3D21C54C7A300EDBE82 /* Fruits */,
+				EC36E3DC1C54C7CA00EDBE82 /* Pasta */,
+				A9B4255A1C533EAC00BE55F9 /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC1192A31C5452AC0009FB4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EA6FD1C54980500A8BA87 /* foodCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC36E3D21C54C7A300EDBE82 /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				EC36E3D31C54C7B300EDBE82 /* F1.jpg */,
+				EC36E3D41C54C7B300EDBE82 /* F2.jpg */,
+				EC36E3D51C54C7B300EDBE82 /* F3.jpg */,
+				EC36E3D61C54C7B300EDBE82 /* F4.jpg */,
+			);
+			name = Fruits;
+			sourceTree = "<group>";
+		};
+		EC36E3DB1C54C7BC00EDBE82 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				EC1192951C541A7B0009FB4A /* pasta.jpg */,
+				EC1192961C541A7B0009FB4A /* meats.jpg */,
+				EC11929B1C541A830009FB4A /* vegetables.jpg */,
+				EC1192971C541A7B0009FB4A /* spices.jpg */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		EC36E3DC1C54C7CA00EDBE82 /* Pasta */ = {
+			isa = PBXGroup;
+			children = (
+				EC36E3DF1C54D11F00EDBE82 /* P1.jpg */,
+				EC36E3E01C54D11F00EDBE82 /* P2.jpg */,
+				EC36E3E11C54D11F00EDBE82 /* P3.jpg */,
+				EC36E3E21C54D11F00EDBE82 /* P4.jpg */,
+			);
+			name = Pasta;
+			sourceTree = "<group>";
+		};
+		EC36E3DD1C54C7D200EDBE82 /* Meats */ = {
+			isa = PBXGroup;
+			children = (
+				EC36E3E71C54D19600EDBE82 /* M1.jpg */,
+				EC36E3E81C54D19600EDBE82 /* M2.jpg */,
+				EC36E3E91C54D19600EDBE82 /* M3.jpg */,
+				EC36E3EA1C54D19600EDBE82 /* M4.jpg */,
+			);
+			name = Meats;
+			sourceTree = "<group>";
+		};
+		EC36E3DE1C54C7DD00EDBE82 /* Vegetables */ = {
+			isa = PBXGroup;
+			children = (
+				EC36E3EF1C54D1E500EDBE82 /* V1.jpg */,
+				EC36E3F01C54D1E500EDBE82 /* V2.jpg */,
+				EC36E3F11C54D1E500EDBE82 /* V3.jpg */,
+				EC36E3F21C54D1E500EDBE82 /* V4.jpg */,
+			);
+			name = Vegetables;
+			sourceTree = "<group>";
+		};
+		ECFBFE171C5386FF00AB0C19 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EA6FB1C54968B00A8BA87 /* categoryTypeTableView.swift */,
+				EC36E3F91C54E28400EDBE82 /* apiRequest.swift */,
+				A9DEDFB11C54F10B00529272 /* RecipeViewController.swift */,
+				A93A4F301C55152A002A1155 /* asuViewController.swift */,
+				A9B425551C533EAC00BE55F9 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B4254D1C533EAC00BE55F9 /* HomeChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4256D1C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChef" */;
+			buildPhases = (
+				126CFA5CAD1C08053112B75A /* Check Pods Manifest.lock */,
+				A9B4254A1C533EAC00BE55F9 /* Sources */,
+				A9B4254B1C533EAC00BE55F9 /* Frameworks */,
+				A9B4254C1C533EAC00BE55F9 /* Resources */,
+				8110431E673EE4686DF3E949 /* Embed Pods Frameworks */,
+				DDE0175B561F5F06847C5CEF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomeChef;
+			productName = HomeChef;
+			productReference = A9B4254E1C533EAC00BE55F9 /* HomeChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B425621C533EAC00BE55F9 /* HomeChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B425701C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChefTests" */;
+			buildPhases = (
+				A9B4255F1C533EAC00BE55F9 /* Sources */,
+				A9B425601C533EAC00BE55F9 /* Frameworks */,
+				A9B425611C533EAC00BE55F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B425651C533EAC00BE55F9 /* PBXTargetDependency */,
+			);
+			name = HomeChefTests;
+			productName = HomeChefTests;
+			productReference = A9B425631C533EAC00BE55F9 /* HomeChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B425461C533EAC00BE55F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jiaqi Wu";
+				TargetAttributes = {
+					A9B4254D1C533EAC00BE55F9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A9B425621C533EAC00BE55F9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A9B4254D1C533EAC00BE55F9;
+					};
+				};
+			};
+			buildConfigurationList = A9B425491C533EAC00BE55F9 /* Build configuration list for PBXProject "HomeChef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B425451C533EAC00BE55F9;
+			productRefGroup = A9B4254F1C533EAC00BE55F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B4254D1C533EAC00BE55F9 /* HomeChef */,
+				A9B425621C533EAC00BE55F9 /* HomeChefTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B4254C1C533EAC00BE55F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93A4F351C551982002A1155 /* animate.gif in Resources */,
+				A93A4F291C55134F002A1155 /* chicken2.jpg in Resources */,
+				A9B425591C533EAC00BE55F9 /* Main.storyboard in Resources */,
+				EC36E3ED1C54D19600EDBE82 /* M3.jpg in Resources */,
+				EC36E3D71C54C7B300EDBE82 /* F1.jpg in Resources */,
+				EC36E3E51C54D11F00EDBE82 /* P3.jpg in Resources */,
+				EC36E3E61C54D11F00EDBE82 /* P4.jpg in Resources */,
+				A93A4F2D1C5514BC002A1155 /* recipe.jpg in Resources */,
+				EC36E3E31C54D11F00EDBE82 /* P1.jpg in Resources */,
+				A93A4F2B1C5513D3002A1155 /* chicken3.jpg in Resources */,
+				EC36E3EB1C54D19600EDBE82 /* M1.jpg in Resources */,
+				EC36E3F51C54D1E500EDBE82 /* V3.jpg in Resources */,
+				A9B4255E1C533EAC00BE55F9 /* LaunchScreen.xib in Resources */,
+				EC36E3F61C54D1E500EDBE82 /* V4.jpg in Resources */,
+				EC1192991C541A7B0009FB4A /* meats.jpg in Resources */,
+				EC36E3DA1C54C7B300EDBE82 /* F4.jpg in Resources */,
+				EC36E3D81C54C7B300EDBE82 /* F2.jpg in Resources */,
+				EC11929A1C541A7B0009FB4A /* spices.jpg in Resources */,
+				EC36E3E41C54D11F00EDBE82 /* P2.jpg in Resources */,
+				EC36E3F31C54D1E500EDBE82 /* V1.jpg in Resources */,
+				A93A4F331C551821002A1155 /* screenshot.png in Resources */,
+				EC36E3EE1C54D19600EDBE82 /* M4.jpg in Resources */,
+				A93A4F281C55134F002A1155 /* chicken1.jpg in Resources */,
+				EC11929C1C541A830009FB4A /* vegetables.jpg in Resources */,
+				A9B4255B1C533EAC00BE55F9 /* Images.xcassets in Resources */,
+				EC36E3EC1C54D19600EDBE82 /* M2.jpg in Resources */,
+				EC1192981C541A7B0009FB4A /* pasta.jpg in Resources */,
+				EC36E3F41C54D1E500EDBE82 /* V2.jpg in Resources */,
+				EC36E3D91C54C7B300EDBE82 /* F3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B425611C533EAC00BE55F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		126CFA5CAD1C08053112B75A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8110431E673EE4686DF3E949 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE0175B561F5F06847C5CEF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HomeChef/Pods-HomeChef-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B4254A1C533EAC00BE55F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC36E3FA1C54E28400EDBE82 /* apiRequest.swift in Sources */,
+				A9B425561C533EAC00BE55F9 /* ViewController.swift in Sources */,
+				A93A4F311C55152A002A1155 /* asuViewController.swift in Sources */,
+				A9DEDFB21C54F10B00529272 /* RecipeViewController.swift in Sources */,
+				EC3EA6FE1C54980500A8BA87 /* foodCell.swift in Sources */,
+				EC36E3F81C54D7A100EDBE82 /* foodData.swift in Sources */,
+				A9B425541C533EAC00BE55F9 /* AppDelegate.swift in Sources */,
+				EC3EA6FC1C54968B00A8BA87 /* categoryTypeTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B4255F1C533EAC00BE55F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B425651C533EAC00BE55F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B4254D1C533EAC00BE55F9 /* HomeChef */;
+			targetProxy = A9B425641C533EAC00BE55F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B425571C533EAC00BE55F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B425581C533EAC00BE55F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B4255C1C533EAC00BE55F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B4255D1C533EAC00BE55F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B4256B1C533EAC00BE55F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9B4256C1C533EAC00BE55F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B4256E1C533EAC00BE55F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A47071442C23C5BBC394E50 /* Pods-HomeChef.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HomeChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9B4256F1C533EAC00BE55F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAEDEE1AFC37A3EFBDF8E07 /* Pods-HomeChef.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HomeChef/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9B425711C533EAC00BE55F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeChef.app/HomeChef";
+			};
+			name = Debug;
+		};
+		A9B425721C533EAC00BE55F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeChefTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HomeChef.app/HomeChef";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B425491C533EAC00BE55F9 /* Build configuration list for PBXProject "HomeChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4256B1C533EAC00BE55F9 /* Debug */,
+				A9B4256C1C533EAC00BE55F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4256D1C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4256E1C533EAC00BE55F9 /* Debug */,
+				A9B4256F1C533EAC00BE55F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B425701C533EAC00BE55F9 /* Build configuration list for PBXNativeTarget "HomeChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B425711C533EAC00BE55F9 /* Debug */,
+				A9B425721C533EAC00BE55F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B425461C533EAC00BE55F9 /* Project object */;
+}
